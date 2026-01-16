@@ -12,7 +12,7 @@ form.addEventListener("submit",(e)=>{
 	e.preventDefault();
 	
 	const radius = Number(radiusInput.value)
-	volume.value = volume_sphere(radius).toFixed(2);
+	volume.value = volume_sphere(radius).toFixed(4);
 })
 
 
